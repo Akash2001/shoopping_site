@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Login</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="login">
+			<h1>Login</h1>
+			<form action="controllers/login.php" method="post">
+				<label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="email" placeholder="Email" id="username" required>
+				<label for="password"><br/><br/>
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Password" id="password" required><br/><br/>
+				<input type="submit" name="submit" value="Login">
+			</form><br/><br/>
+			
+			<a id="loginLink" href="signup.html"><div id="login_button" style="color:black">Sign up</div></a><br/><br/>
+		</div>
+	</body>
+</html>

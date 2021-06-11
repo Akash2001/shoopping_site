@@ -1,0 +1,84 @@
+/**Navbar**/
+nav#navbar{
+    background: chartreuse;
+}
+/**Home**/
+#homeImg{
+    width: 60%;
+    margin: 20px auto 20px;
+}
+#homeImg img{
+    width: 60%;
+    margin: 0px 20% 0px 20%;
+    border: 5px solid orange;
+}
+#navbar a{
+    font-weight: 600;
+}
+#navbar a:hover{
+    color: blue;
+}
+/**Product**/
+#info img{
+    width: 58%;
+    height: 240px;
+    box-sizing: border-box;
+    margin: 0px 20% 20px 20%;
+}
+#info h4,#info div{
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+#content{
+    border: 0.4px solid black;
+    padding:0px;
+    box-sizing: border-box;
+    width:100%;
+}
+div#price{
+    font-style: italic;
+    color: blue;
+}
+.row{
+    padding: 0px;
+    margin: 0px;;
+}
+#form{
+    width: 30%;
+    margin: 5px auto 5px auto;
+}
+#form input{
+    width: 100%;
+    padding: 0px;
+}
+#form div{
+    text-align: center;
+}
+#id{
+    text-align: center;
+}
+/***Profile**/
+#profile{
+    width: 60%;
+    margin: 10px auto 10px;
+    background-color: aquamarine;
+    font-weight: bold;
+    border: 1px solid red;
+    padding: 3px;
+}
+#profile h3{
+    text-align: center;
+}
+/***Footer***/
+#footer{
+    background: chartreuse;
+}
+#footContent>div{
+    width:100%;
+}
+#followus a{
+    color: black;
+    font-size: 1.6em;
+    margin: 0px 2px 0px;
+}

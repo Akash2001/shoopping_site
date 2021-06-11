@@ -1,0 +1,11 @@
+Insert following values in mobiles table after signup
+
+id	name	price	description	imageName	
+1	Samsung	12000.00	Nice piece	sam.jpg	
+2	Asus	10000.00	12 MP front camera	saus.jpg	
+3	Redmi	13000.00	32 MP rear camera and 64 GB storage	redmi.jpg	
+4	Realme	11000.00	6 GB Ram	realme.jpg	
+5	Nokia	15000.00	8 GB Ram 48 MP front camera	nokia.jpg	
+6	Vivo	27000.00	12 GB Ram 64 MP rear camera	vivo.jpg	
+7	Oppo	18000.00	10 GB Ram and 128 GB storage	oppo.jpg	
+
