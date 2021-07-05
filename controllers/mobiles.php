@@ -2,6 +2,7 @@
 require '../models/db.php';
 function readMobiles(){
     $con = createDb();
+    $email= $_SESSION['email'];
       $sql = 'SELECT id,name,price,description,imageName FROM mobiles order by id';
       if ($result = $con->query($sql)) {
         echo '<div class="row">';
@@ -17,7 +18,8 @@ function readMobiles(){
   
             $sql2 = 'SELECT email FROM mobile_cart where id='.$row[0];
             if ($result2 = $con->query($sql2)) {
-              if($result2->num_rows>0){
+              $row1=$result2->fetch_row();
+              if($row1[0]==$email){
                 echo "<center>Already added to cart</center>";
               }
             }

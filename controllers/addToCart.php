@@ -9,7 +9,8 @@ function addToCart(){
     
          $sql = 'SELECT email FROM mobile_cart where id='.$id;
               if ($result = $con->query($sql)) {
-                if($result->num_rows>0){
+                $row = $result->fetch_row();
+                if($row[0]==$email){
                   header('Location: mobile.php');
                   exit;  
                 }

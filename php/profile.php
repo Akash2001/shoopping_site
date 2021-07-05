@@ -12,15 +12,17 @@ if (!isset($_SESSION['loggedin'])) {
 
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>Profile Page</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 	<link href="../css//bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="../css/home.css" rel="stylesheet" type="text/css">
 	<style>
-    #profileLink{
-      background-color: white;
-    }
-  </style>
+		#profileLink {
+			background-color: white;
+		}
+	</style>
 </head>
 
 <body class="loggedin">
@@ -49,6 +51,8 @@ if (!isset($_SESSION['loggedin'])) {
 					<td><?= $_SESSION['email'] ?></td>
 				</tr>
 			</table>
+			<div id="edit"><?= $_SESSION['profile-status'] ?></div>
+			<div id="edit"><a href="update-profile.php">Edit</a></div>
 		</div>
 	</div>
 	<div><br />
@@ -58,6 +62,7 @@ if (!isset($_SESSION['loggedin'])) {
 	<?php
 	require '../controllers/showCart.php';
 	showCart();
+	$_SESSION['profile-status'] = "";
 	?>
 	<!-- Footer -->
 	<?php require 'components/footer.php'; ?>

@@ -18,7 +18,9 @@ function showCart()
 				  <img src="../images/' . $row[4] . '"/>
 				  <div>' . $row[3] . '</div></br>
 				  <div id="price">Price: ' . $row[2] . '</div>
-				  </div></div>';
+				  </div>
+				  <form id="form" method="post" action="../controllers/removeFromCart.php"><div>Product Id:</div><input id="id" type="hideen" name="id" value="'.$row[0].'" readonly/><input type="submit" name="remove" value="Remove"> </form>
+				  </div>';
 						}
 					}
 					$result->free_result();

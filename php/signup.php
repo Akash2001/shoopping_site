@@ -14,7 +14,8 @@
    echo "<br/><br/>";
    
    if(isset($_POST['submit'])){
-    $con=new mysqli("localhost","root","","shopping_site");
+       require '../models/db.php';
+    $con=createDb();
 
 
     if($con->connect_errno)

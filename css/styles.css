@@ -9,7 +9,7 @@ body {
     background-color: #435165;
 }
 .login {
-    width: 400px;
+    width: 340px;
     background-color: #ffffff;
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
     margin: 100px auto;
@@ -18,7 +18,7 @@ body {
     text-align: center;
     color: #5b6574;
     font-size: 24px;
-    padding: 20px 0 20px 0;
+    padding: 20px 0px 20px 0px;
     border-bottom: 1px solid #dee0e4;
 }
 .login form {
@@ -37,7 +37,7 @@ body {
     color: #ffffff;
 }
 .login form input[type="password"], .login form input[type="text"] {
-    width: 310px;
+    width: 250px;
     height: 50px;
     border: 1px solid #dee0e4;
     margin-bottom: 20px;
@@ -74,4 +74,13 @@ body {
 }
 #loginLink{
     text-decoration: none !important;
+}
+/***Extra small devices***/
+@media(max-width: 766px){
+    
+}
+
+/***Small devices***/
+@media(min-width: 767px) and (max-width: 991px){
+    
 }

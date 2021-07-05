@@ -1,6 +1,7 @@
 <?php
    session_start();
    require '../models/db.php';
+   echo '<link href="css/styles.css" rel="stylesheet" type="text/css">';
 
     $con=createDb();
 ;
@@ -25,6 +26,8 @@
 		$_SESSION['mname'] = $mname;
 		$_SESSION['lname'] = $lname;
 		$_SESSION['email'] = $_POST['email'];
+		$_SESSION['password'] = $_POST['password'];
+		$_SESSION['profile-status'];
 		header('Location: ../php/home.php');
 	} else {
 		// Incorrect password
