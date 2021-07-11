@@ -12,7 +12,18 @@ at infinityfree
 A shopping site where you need to be signed up and then login to view the site. It shows mobiles info which is fetched from the database and so dynamic. It also have feature of updating your profile and adding products to your cart.
 
 # Screen shots
-![login](https://user-images.githubusercontent.com/65216144/125197523-b3c7c280-e27b-11eb-841c-7d6bf4222ba7.png)
+# 1
+<img src="https://raw.githubusercontent.com/Akash2001/shoopping_site/main/images/login.png" /><br/><hr/>
+# 2
+<img src="https://raw.githubusercontent.com/Akash2001/shoopping_site/main/images/sgnup.png" /><br/><hr/>
+# 3
+<img src="https://raw.githubusercontent.com/Akash2001/shoopping_site/main/images/ss3.png" /><br/><hr/>
+# 4
+<img src="https://raw.githubusercontent.com/Akash2001/shoopping_site/main/images/ss4.png" /><br/><hr/>
+# 5
+<img src="https://raw.githubusercontent.com/Akash2001/shoopping_site/main/images/ss5.png" /><br/><hr/>
+# 6
+<img src="https://raw.githubusercontent.com/Akash2001/shoopping_site/main/images/ss6.png" /><br/><hr/>
 
 
 # Share your views at
