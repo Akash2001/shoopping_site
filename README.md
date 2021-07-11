@@ -1,4 +1,4 @@
-# shoopping_site 
+# Shoopping Site 
 # Tech used
 Html,css,javascript,php and mysql database
 
